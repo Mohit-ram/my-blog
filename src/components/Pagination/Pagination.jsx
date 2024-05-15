@@ -17,7 +17,7 @@ const Pagination = ({ pageNumber, previousPage, nextPage }) => {
             </a>
           </li>
           <li className="page-item ">
-            <a className="page-link" href="!#">
+            <a className="page-link" href="!#" >
               {pageNumber}
             </a>
           </li>

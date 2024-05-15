@@ -2,7 +2,7 @@ import React from "react";
 
 import "./card.css";
 
-const Card = ({ image, title, info }) => {
+const Card = ({ number, image, title, info }) => {
   return (
     <>
       
@@ -17,7 +17,7 @@ const Card = ({ image, title, info }) => {
                     {info}
                   </p>
                   <a
-                    href="#"
+                    href={`/src/projects/project${number}/project${number}.html`} target="_blank"
                     className="project-link m-0 texr-decoration-underline"
                   >
                     <p>Read More</p>

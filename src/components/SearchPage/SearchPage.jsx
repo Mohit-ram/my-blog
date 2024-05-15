@@ -14,6 +14,7 @@ function createcard(project) {
   return (
     <Card
       key={project.Id}
+      number = {project.number}
       image={image}
       title={project.title}
       info={project.info}
