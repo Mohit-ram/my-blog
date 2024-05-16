@@ -17,7 +17,8 @@ const Card = ({ number, image, title, info }) => {
                     {info}
                   </p>
                   <a
-                    href={`/src/projects/project${number}/project${number}.html`} target="_blank"
+                  
+                    href={`src/projects/project${number}/project${number}.html`} target="_blank"
                     className="project-link m-0 texr-decoration-underline"
                   >
                     <p>Read More</p>
