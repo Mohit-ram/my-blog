@@ -8,14 +8,14 @@ import allProjects, {
 import Pagination from "../Pagination/Pagination.jsx";
 import Card from "../card/Card.jsx";
 import CatalogBar from "../catalog_bar/CatalogBar.jsx";
-import image from "/src/assets/images/img1.jpg";
+// import image from "/src/assets/images/img1.jpg";
 
 function createcard(project) {
   return (
     <Card
       key={project.Id}
       number = {project.number}
-      image={image}
+      image={project.imgPath}
       title={project.title}
       info={project.info}
     />

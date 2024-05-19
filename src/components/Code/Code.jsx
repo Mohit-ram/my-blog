@@ -17,6 +17,7 @@
 import hljs from "highlight.js/lib/core";
 import python from "highlight.js/lib/languages/python";
 import "highlight.js/styles/night-owl.css";
+import "./code.css"
 
 import { useEffect, useRef } from "react";
 
@@ -30,9 +31,9 @@ const Code = ({code}) => {
   }, []);
 
   return (
-    <pre>
+    <pre className="">
       <code
-        className="python"
+        className="python rounded  "
         style = {{color:'white'}}
         ref={codeRef}
       >

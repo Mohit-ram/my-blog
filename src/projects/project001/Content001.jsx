@@ -1,11 +1,21 @@
-
 import Code from "../../components/Code/Code.jsx";
+import mainImg from "./mainImg001.jpg";
 
 const Content001 = () => {
   return (
-    <div className="page-content container mt-5 mx-auto w-75 px-5 ">
-      <h1 className="text-center">Project title</h1>
-      <p> project description</p>
+    <div className="page container mt-5 mx-auto w-75 px-5 ">
+      <h1 className="text-center">Iris Species Detection</h1>
+      <div className="text-center">
+        <img src={mainImg} className="h-50 w-50"></img>
+      </div>
+      <p>
+        A simple classification program in Python to predict the species of an
+        Iris flower using various classification algorithms. The objective of
+        these projects is to build various predictive models capable of distinguishing
+        between the three species of Iris flowers—setosa, versicolor, and
+        virginica—based on the physical dimensions of their petals and sepals.
+        By applying machine learning techniques.
+      </p>
       <h4>Step1: Data Preprocessing - Read and Ready the Data.</h4>
       <Code
         code={`# Step 1: Data Preprocessing

@@ -4,10 +4,10 @@ const StickyTopBar = () => {
   return (
     <div>
     <nav class="navbar  container-fluid  fixed-top">
-      <a class="navbar-brand " href="./index.html">
+      <a class="navbar-brand " href="/">
         Go Home <i class="bi bi-house-up-fill"></i>
       </a>
-      <a class="navbar-brand " href="./index.html">
+      <a class="navbar-brand " href="/">
         Git <i class="bi bi-house-up-fill"></i>
       </a>
 
