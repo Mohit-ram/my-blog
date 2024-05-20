@@ -4,7 +4,14 @@
     background-color: rgb(1, 193, 193) !important;
     border: none!important;
 }
-
+.page-item.active .page-link{
+    border :none;
+    border-color:white ;
+}
+.active>.page-link, .page-link.active{
+    border :none !important;
+    border-color:white !important;
+}
 .page-item:first-child .page-link {
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;

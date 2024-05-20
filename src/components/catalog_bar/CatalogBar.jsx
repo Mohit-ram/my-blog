@@ -1,4 +1,5 @@
 import React from 'react'
+import "./catalogbar.css"
 
 const CatalogBar = ({showAllProjects, showBeginnerProjects, showInterProjects, showOpenCVProjects, showLLMProjects}) => {
   return (

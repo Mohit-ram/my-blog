@@ -1,73 +1,7 @@
 
 body {
-    overflow-x: hidden;
+     overflow-x: hidden;
   }
-.sidebar {
-    height: 100vh;
-    position: fixed;
-    background-color: #00b7c7 !important; /* Light gray background */
-    padding-top: 20px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    width:250px;
-    transition: all 0.3s ease; /* Smooth transition for responsiveness */
-}
-.sidebar-logo{
-    width: 75px;
-    height:75px;
-    background-color: white;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-.logo-icon{
-    font-size:40px
-}
 
 
-.content-area {
-    margin-left: 250px; /* Adjust margin to accommodate expanded sidebar */
-    padding: 10px;
-}
-.social-links {
-    position: absolute;
-    bottom: 10px;
-    left:120px;
-    
-    font-size: 24px;
-    
 
-    
-}
-.nav-item:hover {
-    
-    border:none;
-}
-.nav-link {
-    color: #333; /* Darken link color */
-}
-.nav-link:hover {
-    
-    color: #edeeee;
-    text-decoration: underline; /* Highlight link on hover */
-}
-.project-catalogbar{
-    
-    border-color: #00b7c7 !important;
-    color:#00b7c7 !important;
-    
-}
-.project-catalogbar .nav-link{
-    color: #00b7c7 !important;
-    font-weight: 500;
-}
-.page-item.active .page-link{
-    border :none;
-    border-color:white ;
-}
-.active>.page-link, .page-link.active{
-    border :none !important;
-    border-color:white !important;
-}

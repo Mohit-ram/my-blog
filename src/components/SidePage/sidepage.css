@@ -1,0 +1,8 @@
+.jumbotron{
+
+    background-color: #00b7c7;
+}
+.content-area {
+    margin-left: 250px; /* Adjust margin to accommodate expanded sidebar */
+    padding: 10px;
+}

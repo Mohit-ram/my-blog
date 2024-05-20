@@ -1,0 +1,10 @@
+.project-catalogbar{
+    
+    border-color: #00b7c7 !important;
+    color:#00b7c7 !important;
+    
+}
+.project-catalogbar .nav-link{
+    color: #00b7c7 !important;
+    font-weight: 500;
+}
