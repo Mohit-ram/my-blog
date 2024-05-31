@@ -30,25 +30,25 @@ const Sidebar = () => {
 
         <ul className="nav flex-column gap-2">
           <li className="nav-item border rounded-pill">
-            <a className="nav-link active fw-bold fs-3 " href="#">
+            <a className="nav-link active fw-bold fs-3 " href="/">
               <i className="bi bi-house-fill"></i>
               Home
             </a>
           </li>
           <li className="nav-item border rounded-pill">
-            <a className="nav-link active fw-bold fs-3" href="#">
+            <a className="nav-link active fw-bold fs-3" target="_blank" href="https://mohit-ram.github.io/portfolio/">
               <i className="bi bi-person-fill"></i>
               About
             </a>
           </li>
           <li className="nav-item border rounded-pill">
-            <a className="nav-link active fw-bold fs-3 " href="#">
+            <a className="nav-link active fw-bold fs-3 " target="_blank" href="https://mohit-ram.github.io/portfolio/">
               <i className="bi bi-file-person-fill"></i>
               Portfolio
             </a>
           </li>
           <li className="nav-item border rounded-pill ">
-            <a className="nav-link active fw-bold fs-3" href="#">
+            <a className="nav-link active fw-bold fs-3" target="_blank" href="https://mohit-ram.github.io/portfolio/">
               <i className="bi bi-person-lines-fill"></i>
               Contact
             </a>

@@ -31,7 +31,7 @@ const Code = ({code}) => {
   }, []);
 
   return (
-    <pre className="">
+    <pre className="overflow-y">
       <code
         className="python rounded  "
         style = {{color:'white'}}

@@ -62,8 +62,7 @@ const Content001 = () => {
         to others), it may require resampling techniques to ensure that the
         model trained on this data does not become biased towards the more
         frequent classes.
-        <br />
-        <br />
+        
       </p>
       <h4>Step1B: Visualizing Data for Pattern Recognition</h4>
       <Code
@@ -104,8 +103,7 @@ const Content001 = () => {
         features might be particularly useful for classification tasks.
         Conversely, if two features are highly correlated, we might consider
         removing one to reduce redundancy.
-        <br />
-        <br />
+        
       </p>
       <h4>Step1C: Feature Engineering(Data Preparation)</h4>
       <Code
@@ -154,7 +152,7 @@ const Content001 = () => {
         indicates that 15% of the data will be set aside for testing the model,
         and the remaining 85% will be used for training.
       </p>
-      <h4>Step2: Models selection and hyperparameters</h4>
+      <h4>Step2: Model selection and hyperparameters</h4>
       <Code
         code={`
               # Step 2: Choosing Models and Hyperparameters
@@ -229,8 +227,7 @@ const Content001 = () => {
         is particularly useful when performing grid search for hyperparameter
         tuning, as it allows for systematic exploration of the hyperparameter
         space for each model.
-        <br />
-        <br />
+        
       </p>
 
       <h4>Step3 & Step4: Model evaluation and Hypertuning</h4>
@@ -285,8 +282,7 @@ const Content001 = () => {
         performs randomized search cross-validation, and fits the model to the
         training data. The best hyperparameters for each model are stored, and
         the performance score of the best model is calculated on the test data.
-        <br />
-        <br />
+       
       </p>
       <h4>Step5: Fitting the best Model</h4>
       <Code
@@ -339,8 +335,7 @@ const Content001 = () => {
         training, the model’s performance is evaluated on the test set with the
         model.score(x_test, y_test) method, which returns the accuracy of the
         model.
-        <br />
-        <br />
+        
       </p>
 
       <h4>Step6 :Saving and Loading the Model</h4>
@@ -360,17 +355,6 @@ const Content001 = () => {
         using joblib.dump. Load the model from ‘clf.pkl’ when needed using
         joblib.load. Make predictions using the loaded model with predict
         method.
-        <br />
-        <br />
-      </p>
-
-      <h4></h4>
-      <Code
-        code={`
-          
-          `}
-      />
-      <p>
         <br />
         <br />
       </p>

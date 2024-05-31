@@ -1,6 +1,7 @@
-.jumbotron{
-
-    background-color: #00b7c7;
+.jumbo-container{
+    height:350px;
+    width:auto;
+    /* background-color: #00b7c7; */
 }
 .content-area {
     margin-left: 250px; /* Adjust margin to accommodate expanded sidebar */

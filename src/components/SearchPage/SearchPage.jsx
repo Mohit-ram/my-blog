@@ -18,6 +18,7 @@ function createcard(project) {
       image={project.imgPath}
       title={project.title}
       info={project.info}
+      subInfo={project.subInfo}
     />
   );
   
@@ -30,7 +31,7 @@ const SearchPage = () => {
 
   console.log(projects[0].Id);
   const showAllProjects = () => {
-    setProjects(projects);
+    setProjects(allProjects);
     setCurrentPage(1);
   };
   const showBeginnerProjects = () => {

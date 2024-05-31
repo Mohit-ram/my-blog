@@ -1,7 +1,8 @@
 .page-link{
     color: white !important;
     border-radius: 25%;
-    background-color: rgb(1, 193, 193) !important;
+    /* background-color: rgb(1, 193, 193) !important; */
+    background-color: #68c2e8 !important;
     border: none!important;
 }
 .page-item.active .page-link{

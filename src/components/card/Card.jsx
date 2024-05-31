@@ -1,7 +1,7 @@
 import React from "react";
 import "./card.css";
 
-const Card = ({ number, image, title, info }) => {
+const Card = ({ number, image, title, info, subInfo }) => {
   return (
     <>
       
@@ -14,6 +14,9 @@ const Card = ({ number, image, title, info }) => {
                   <h5 className="card-title">{title}</h5>
                   <p className="card-text">
                     {info}
+                  </p>
+                  <p className="card-text">
+                    {subInfo}
                   </p>
                   <a
                   

@@ -7,10 +7,7 @@ const StickyTopBar = () => {
       <a class="navbar-brand " href="/">
         Go Home <i class="bi bi-house-up-fill"></i>
       </a>
-      <a class="navbar-brand " href="/">
-        Git <i class="bi bi-house-up-fill"></i>
-      </a>
-
+      
       {/* <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
