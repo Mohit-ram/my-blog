@@ -19,12 +19,12 @@ const Sidebar = () => {
         className="sidebar-sticky d-flex flex-column  align-items-center"
         id="side-navbar"
       >
-        <div className="web-brand d-flex flex-column align-items-center pt-5 pb-5">
+        <div className="web-brand d-flex flex-column justify-content-center align-items-center pt-5 pb-5">
           <div className="sidebar-logo  ">
             <i className="bi bi-cpu logo-icon"></i>
           </div>
           <div>
-            <h1>AIBlog</h1>
+            <h1>Growing AI</h1>
           </div>
         </div>
 
