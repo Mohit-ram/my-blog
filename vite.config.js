@@ -15,6 +15,8 @@ export default defineConfig({
         project003: resolve(__dirname, 'src/projects/project003/project003.html'),
         project004: resolve(__dirname, 'src/projects/project004/project004.html'),
         project005: resolve(__dirname, 'src/projects/project005/project005.html'),
+        project006: resolve(__dirname, 'src/projects/project006/project006.html'),
+        project007: resolve(__dirname, 'src/projects/project007/project007.html'),
       },
     },
   },

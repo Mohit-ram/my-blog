@@ -1,5 +1,6 @@
 import Code from "../../components/Code/Code.jsx";
 import mainImg from "./mainImg004.png";
+import out01 from "./t_vs_v.png";
 
 const Content004 = () => {
   return (
@@ -15,7 +16,6 @@ const Content004 = () => {
         performance. Finally, we demonstrate how to use the model for
         predictions on unseen images. The dataset is gracefully provided by
         https://laurencemoroney.com/datasets.html
-        
       </p>
       <h4>Data Preprocessing</h4>
       <Code
@@ -113,7 +113,6 @@ const Content004 = () => {
         batch.img contains the preprocessed images, and label contains their
         corresponding labels.The shape of the labels is printed using
         label.shape.
-        
       </p>
       <h4>Model architecture</h4>
       <Code
@@ -163,7 +162,6 @@ const Content004 = () => {
         These classifiers aid in training and regularization.Batch normalization
         is applied to layers in the sidehead of the network. It helps stabilize
         training by normalizing the input to each layer2.
-        
       </p>
 
       <h4>Model Evaluation</h4>
@@ -197,8 +195,15 @@ const Content004 = () => {
         the model’s weights were updated based on the loss and accuracy.
         Finally, we visualized the training and validation loss curves to assess
         model performance.
-        
       </p>
+      <div className="text-center">
+      <p> Training vs validation loss</p>
+      <img
+        className="text-center h-50 w-50"
+        src={out01}
+        alt="Train vs val accuracy"
+      ></img>
+      </div>
 
       <h4>Model Conclusion</h4>
       <Code
@@ -233,8 +238,7 @@ const Content004 = () => {
         organization.
         <br />
         <br />
-        output:
-        1/1 [==============================] - 0s 41ms/step 
+        output: 1/1 [==============================] - 0s 41ms/step
         array([[0.]], dtype=float32) -- human
         <br />
       </p>

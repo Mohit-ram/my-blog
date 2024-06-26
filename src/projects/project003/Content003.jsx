@@ -1,5 +1,9 @@
 import Code from "../../components/Code/Code.jsx";
 import mainImg from "./mainImg003.png";
+import img01 from "./img01.png"
+import img02 from "./img02.png"
+import img03 from "./img03.png"
+import img04 from "./img04.png"
 
 const Content003 = () => {
   return (
@@ -81,7 +85,7 @@ const Content003 = () => {
         <p>Seaborn Count plot of all digits in dataset</p>
         <img
           className="h-50 w-50"
-          src="/my-blog/src/projects/project003/img01.png"
+          src={img01}
         />
       </div>
       <h4>Base Model</h4>
@@ -230,15 +234,15 @@ const Content003 = () => {
       <div className="container d-flex-inline text-center">
         <img
           className="h-25 w-25"
-          src="/my-blog/src/projects/project003/img02.png"
+          src={img02}
         />
         <img
           className="h-25 w-25"
-          src="/my-blog/src/projects/project003/img03.png"
+          src={img03}
         />
         <img
           className="h-25 w-25"
-          src="/my-blog/src/projects/project003/img04.png"
+          src={img04}
         />
       </div>
 
