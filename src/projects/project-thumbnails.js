@@ -13,7 +13,16 @@ import img10 from "/src/projects/project010/mainImg010.png"
 import img11 from "/src/projects/project011/mainImg011.png"
 import img12 from "/src/projects/project012/mainImg012.png"
 import img13 from "/src/projects/project013/mainImg013.png"
+import img14 from "/src/projects/project014/mainImg014.png"
+import img15 from "/src/projects/project015/mainImg015.png"
+import img16 from "/src/projects/project016/mainImg016.png"
+import img17 from "/src/projects/project017/mainImg017.png"
+import img18 from "/src/projects/project018/mainImg018.png"
+import img19 from "/src/projects/project019/mainImg019.png"
+import img20 from "/src/projects/project020/mainImg020.png"
+import img21 from "/src/projects/project021/mainImg021.png"
 
-const thb = [img00,img01, img02, img03, img04, img05, img06,img07, img08, img09,img10, img11, img12, img13]
+const thb = [img00,img01, img02, img03, img04, img05, img06,img07, img08, img09,img10,
+                     img11, img12, img13,img14,img15,img16,img17, img18, img19, img20,img21]
 
 export default thb;

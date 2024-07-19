@@ -29,7 +29,7 @@ const SearchPage = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(5);
 
-  console.log(projects[0].Id);
+  // console.log(projects[0].Id);
   const showAllProjects = () => {
     setProjects(allProjects);
     setCurrentPage(1);

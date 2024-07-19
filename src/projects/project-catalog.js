@@ -9,6 +9,7 @@ const projects = [
     subInfo:
       " Classification, Scikit-learn, Hypertuning Random Forest, Cross-validation, GradBoost, RadomisedCVSearch",
     imgPath: thb[1],
+    category: "cat-a",
     dataSource: "link",
   },
   {
@@ -19,6 +20,7 @@ const projects = [
     subInfo:
       "Classification, Column Transformer, Confusion matrix, F1 score, support vector machines",
     imgPath: thb[2],
+    category: "cat-a",
     dataSource: "https://archive.ics.uci.edu/dataset/1/abalone",
   },
   {
@@ -29,7 +31,7 @@ const projects = [
     subInfo:
       "Multi-class Image classification, CNN, overfitting, Regularisation PerformaceCurves",
     imgPath: thb[3],
-    category: "cat-b",
+    category: "cat-a",
     dataSource: "https://www.kaggle.com/competitions/digit-recognizer",
   },
   {
@@ -60,7 +62,7 @@ const projects = [
     Info: "Object detection and tracking objects throughout frames only using YOLO",
     subInfo: "ObjectTrackin ComputerVision OpenCV Yolov8 ",
     imgPath: thb[6],
-    category: "cat-a",
+    category: "cat-c",
     dataSource: "pixabay",
   },
   {
@@ -91,7 +93,7 @@ const projects = [
     info: "Quick and all you need to start your quieries in postgreSQL using pgAdmin 4",
     subInfo: "Installation, Create DB, SQL Datatypes, Table, Insert",
     imgPath: thb[9],
-    category: "cat-c",
+    category: "cat-a",
     dataSource: "(https://www.postgresql.org/)",
   },
   {
@@ -101,7 +103,7 @@ const projects = [
     info: "Most used basic sql quries to perfom data analysis on custom created dataset",
     subInfo: "SELECT, WHERE, JOINS, GROUPING, FILTERING, AGGREGATION",
     imgPath: thb[10],
-    category: "cat-c",
+    category: "cat-a",
     dataSource: "",
   },
   {
@@ -111,7 +113,7 @@ const projects = [
     info: "mUltiple advanced queries to  thoroughly explore and analyse data on a custom created dataset",
     subInfo: "SUBQUERIES, UNIONS, WindowFunctions, OVER, RANK",
     imgPath: thb[11],
-    category: "cat-c",
+    category: "cat-b",
     dataSource: "",
   },
   {
@@ -121,7 +123,7 @@ const projects = [
     info: "Basic simple pandas functions for quickly visualise directly from dataframes. ",
     subInfo: "Hist plot, scatterPlot, BarPlot, KDEPlot, BoxPlot",
     imgPath: thb[12],
-    category: "cat-c",
+    category: "cat-a",
     dataSource: "link",
   },
   {
@@ -131,7 +133,7 @@ const projects = [
     info: "All the useful numpy functions, concepts, operations in one guide",
     subInfo: "ArrayCreation, MathOperations, nD-arrays, Slicing, Stacking",
     imgPath: thb[13],
-    category: "cat-c",
+    category: "cat-a",
     dataSource: "link",
   },
   {
@@ -140,8 +142,8 @@ const projects = [
     title: "Real time Iris Species classification with streamlit interface",
     info: "Using stremlit interface to get input features and classify iris species using Random Forest",
     subInfo: "Streamlit, Random Forest, classification",
-    imgPath: thb[0],
-    category: "cat-c",
+    imgPath: thb[14],
+    category: "cat-b",
     dataSource: "link",
   },
   {
@@ -150,8 +152,8 @@ const projects = [
     title: "NLP: End-to-End Sentiment prediction using RNN",
     info: "Build and deploy a sentiment analysis model using the IMDB movie reviews dataset, classifying reviews as positive or negative with a Recurrent Neural Network (RNN).",
     subInfo: "End-to-End, Deploy, RNN, Embedding vector, PadSequences, Streamlit",
-    imgPath: thb[0],
-    category: "cat-c",
+    imgPath: thb[15],
+    category: "cat-b",
     dataSource: "link",
   },
   {
@@ -160,8 +162,8 @@ const projects = [
     title: "NLP: Sentiment analysis: Sarcasm or not",
     info: "Sarcasm detection model using deep learning techniques, trained on a dataset of headlines. Streamlit web application for real-time predictions on whether the text is sarcastic.",
     subInfo: "LSTM, Tokenisatoin, streamlit, sequence data",
-    imgPath: thb[0],
-    category: "cat-c",
+    imgPath: thb[16],
+    category: "cat-b",
     dataSource: "link",
   },
   {
@@ -170,8 +172,8 @@ const projects = [
     title: "LangChain: RAG Framework Document embedding",
     info: "Retrieval-Agumented Generation Framework in Langchain, Data ingestion, Data chunking, Data embedding",
     subInfo: "Langchain, Ollama, OpenAI, HuggingFace, Embeddings, Text Loaders, Text Splitters ",
-    imgPath: thb[0],
-    category: "cat-c",
+    imgPath: thb[17],
+    category: "cat-d",
     dataSource: "link",
   },
   {
@@ -180,100 +182,41 @@ const projects = [
     title: "LangChain: RAG Framework Vector Stores",
     info: "Creating vectore store DB for custom document using FAIS and Chroma DB",
     subInfo: "Vector Stores, FIASS, ChromaDB, Ollama Embeddings",
-    imgPath: thb[0],
-    category: "cat-c",
+    imgPath: thb[18],
+    category: "cat-d",
     dataSource: "link",
   },
   {
     Id: 19,
-    number: "001",
-    title: "New project coming soon",
-    info: "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.",
-    subInfo: "subinfo",
-    imgPath: thb[0],
+    number: "019",
+    title: "NLP: Text Classification",
+    info: "Project demonstrates the application of deep learning techniques to NLP tasks: text classification model.",
+    subInfo: "Text Classification, Tokenisers, BBC news dataset, Embedding Layers",
+    imgPath: thb[19],
     category: "cat-b",
     dataSource: "link",
   },
   {
     Id: 20,
-    number: "001",
-    title: "New project coming soon",
-    info: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    subInfo: "subinfo",
-    imgPath: thb[0],
-    category: "cat-a",
+    number: "020",
+    title: "A Basic Q&A LLM model using LangChain",
+    info: "A simple Q&A AI app using Langchain chatmodels and prompt techniques",
+    subInfo: "GROQ, LLM, Langchain Components: Chat Models + Prompt, OpenAI, Ollama",
+    imgPath: thb[20],
+    category: "cat-d",
     dataSource: "link",
   },
   {
     Id: 21,
-    number: "001",
-    title: "New project coming soon",
-    info: "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
-    subInfo: "subinfo",
-    imgPath: thb[0],
-    category: "cat-b",
+    number: "021",
+    title: "Langchain: Retain Chat Message history",
+    info: "Project demonstrates various chat history retaining techniques in Langchain, that can be later used in chatBots and Agents",
+    subInfo: "LangChain, Chains, Prompts, RunnableWithMessageHistory",
+    imgPath: thb[21],
+    category: "cat-d",
     dataSource: "link",
   },
-  {
-    Id: 22,
-    number: "001",
-    title: "New project coming soon",
-    info: "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    subInfo: "subinfo",
-    imgPath: thb[0],
-    category: "cat-c",
-    dataSource: "link",
-  },
-  {
-    Id: 23,
-    number: "001",
-    title: "New project coming soon",
-    info: "Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-    subInfo: "subinfo",
-    imgPath: thb[0],
-    category: "cat-a",
-    dataSource: "link",
-  },
-  {
-    Id: 24,
-    number: "001",
-    title: "New project coming soon",
-    info: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.",
-    subInfo: "subinfo",
-    imgPath: thb[0],
-    category: "cat-b",
-    dataSource: "link",
-  },
-  {
-    Id: 25,
-    number: "001",
-    title: "New project coming soon",
-    info: "Et harum quidem rerum facilis est et expedita distinctio.",
-    subInfo: "subinfo",
-    imgPath: thb[0],
-    category: "cat-c",
-    dataSource: "link",
-  },
-  {
-    Id: 26,
-    number: "001",
-    title: "New project coming soon",
-    info: "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.",
-    subInfo: "subinfo",
-    imgPath: thb[0],
-    category: "cat-b",
-    dataSource: "link",
-  },
-  {
-    Id: 27,
-    number: "001",
-    title: "New project coming soon",
-    info: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    subInfo: "subinfo",
-    imgPath: thb[0],
-    category: "cat-a",
-    dataSource: "link",
-  },
+  
 ];
 
 function onlyCatA() {
@@ -311,5 +254,5 @@ function onlyCatD() {
   return catD_projects;
 }
 
-export default projects;
+export default projects.reverse();
 export { onlyCatA, onlyCatB, onlyCatC, onlyCatD };

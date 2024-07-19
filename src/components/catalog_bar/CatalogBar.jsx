@@ -8,12 +8,12 @@ const CatalogBar = ({showAllProjects, showBeginnerProjects, showInterProjects, s
       <h5>Catalog</h5>
       <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li>
-          <a
+          {/* <a
             href="#"
             className="nav-link  catalog-link px-2 link-secondary"
           >
             New
-          </a>
+          </a> */}
         </li>
         <li>
           <a href="#" onClick={() => showAllProjects()} className="nav-link  catalog-link px-2">
