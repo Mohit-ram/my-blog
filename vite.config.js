@@ -31,6 +31,10 @@ export default defineConfig({
         project019: resolve(__dirname, 'src/projects/project019/project019.html'),
         project020: resolve(__dirname, 'src/projects/project020/project020.html'),
         project021: resolve(__dirname, 'src/projects/project021/project021.html'),
+        project022: resolve(__dirname, 'src/projects/project022/project022.html'),
+        project023: resolve(__dirname, 'src/projects/project023/project023.html'),
+        project024: resolve(__dirname, 'src/projects/project024/project024.html'),
+        project025: resolve(__dirname, 'src/projects/project025/project025.html'),
         
       },
     },

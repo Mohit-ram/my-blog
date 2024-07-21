@@ -21,8 +21,13 @@ import img18 from "/src/projects/project018/mainImg018.png"
 import img19 from "/src/projects/project019/mainImg019.png"
 import img20 from "/src/projects/project020/mainImg020.png"
 import img21 from "/src/projects/project021/mainImg021.png"
+import img22 from "/src/projects/project022/mainImg022.png"
+import img23 from "/src/projects/project023/mainImg023.png"
+import img24 from "/src/projects/project024/mainImg024.png"
+import img25 from "/src/projects/project025/mainImg025.png"
 
 const thb = [img00,img01, img02, img03, img04, img05, img06,img07, img08, img09,img10,
-                     img11, img12, img13,img14,img15,img16,img17, img18, img19, img20,img21]
+                     img11, img12, img13,img14,img15,img16,img17, img18, img19, img20,img21,
+                    img22, img23, img24, img25]
 
 export default thb;

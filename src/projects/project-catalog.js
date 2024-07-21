@@ -1,5 +1,6 @@
 import thb from "/src/projects/project-thumbnails.js";
 
+
 const projects = [
   {
     Id: 1,
@@ -216,6 +217,43 @@ const projects = [
     category: "cat-d",
     dataSource: "link",
   },
+  {Id: 22,
+    number: "022",
+    title: "Langchain: Deployed World Wars Q&A AI, end-to-end",
+    info: "End to End AI app deployment using langchain, Groq, Huggingface, streamlit",
+    subInfo: "Langchain, streamlit, HuggingFace, GroQ, Llama",
+    imgPath: thb[22],
+    category: "cat-d",
+    dataSource: "link",
+},
+{Id: 23,
+  number: "023",
+  title: "Contextual Q&A Chat with AI, End-to-End App",
+  info: "A AI app that answers based on provided context via pdfs and with chat history.",
+  subInfo: "Langchain, History Retreivers,streamlit, HuggingFace, GroQ, Llama",
+  imgPath: thb[23],
+  category: "cat-d",
+  dataSource: "https://contextualqnaai-k4kibvvy8vspmxwbsx9vfv.streamlit.app/)",
+},
+{Id: 24,
+  number: "024",
+  title: "WebPage Summary AI app",
+  info: "Summarizing valid web page and deploying into cloud , using Langchain, Gemma, streamlit. ",
+  subInfo: "End-To-End, Summarize Chain, Unstructure Loader, Groq ",
+  imgPath: thb[24],
+  category: "cat-d",
+  dataSource: "https://texsummarylc-zqmbbyxqndscfy3xr7nzyp.streamlit.app/"   
+  ,
+},
+{Id: 25,
+  number: "025",
+  title: "SYoutube Video Summary AI app",
+  info: "Summarizing a valid youtube and deploying into cloud , using Langchain, Gemma, streamlit. ",
+  subInfo: "End-To-End, Summarize Chain, YT Loader, Groq",
+  imgPath: thb[25],
+  category: "cat-d",
+  dataSource: "link",
+}
   
 ];
 
