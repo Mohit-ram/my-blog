@@ -13,7 +13,7 @@ const SidePage = () => {
         
       </div>
       <div className="container text-center">
-            <h4 className="text-body-emphasis">
+            <h4 className="text-body-emphasis web-description">
               Discover and learn AI in exciting way with new techniques and more
               with me!!.
             </h4>

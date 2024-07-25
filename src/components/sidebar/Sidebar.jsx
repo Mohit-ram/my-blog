@@ -20,11 +20,11 @@ const Sidebar = () => {
         id="side-navbar"
       >
         <div className="web-brand d-flex flex-column justify-content-center align-items-center pt-5 pb-5">
-          <div className="sidebar-logo  ">
+          {/* <div className="sidebar-logo  ">
             <i className="bi bi-cpu logo-icon"></i>
-          </div>
+          </div> */}
           <div>
-            <h1>Growing AI</h1>
+            <h1 className="web-title">AI Genie</h1>
             
           </div>
         </div>
